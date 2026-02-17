@@ -1,4 +1,5 @@
 ✅ Bank Customer Churn Prediction using Machine Learning
+
 📌 Project Overview
 Customer churn is one of the biggest challenges faced by banks today. Losing customers directly impacts revenue and business growth. This project focuses on predicting whether a customer will churn (leave the bank) based on their demographic and account-related information.
 The goal is to build a machine learning model that can identify at-risk customers early, allowing the bank to take proactive retention actions.
