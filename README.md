@@ -9,7 +9,7 @@ The objective of this project is:
 To predict customer churn in a banking system
 To compare multiple machine learning algorithms
 To improve churn detection performance using threshold tuning
-To evaluate models using precision, recall, F1-score, confusion matrix, and precision-recall curve
+To evaluate models using precision, recall, F1-score & confusion matrix
 
 📂 Dataset Information
 The dataset contains customer-related features such as:
@@ -42,7 +42,6 @@ Precision
 Recall
 F1-score
 Confusion Matrix
-Precision–Recall Curve
 Threshold tuning for business optimization
 
 📌 Confusion Matrix Comparison
@@ -63,15 +62,10 @@ y_pred = (y_prob > 0.35).astype(int)
 
 ✅ Result Improvement
 Threshold tuning significantly improved churn detection:
-Recall improved from 66% → 80%
+Recall(1) improved from 66% → 80%
 Missed churn customers reduced from 129 → 78
 True churn detections increased from 264 → 315
-
-​
 This makes the model more useful for real banking retention strategies.
-📉 Precision–Recall Curve Analysis
-A Precision–Recall Curve was plotted to evaluate performance under class imbalance.
-This curve helped select the optimal threshold based on recall–precision tradeoff.
 
 📊 Key Insights
 Logistic Regression captured more churn customers but produced many false churn alerts.
@@ -85,12 +79,11 @@ Feature Scaling and Encoding
 Model Training (LR, RF, XGB)
 Hyperparameter Tuning
 Confusion Matrix Visualization
-Precision–Recall Curve Analysis
 Threshold Optimization for Churn Recall
 
 
 📌 Conclusion
-This project demonstrates an end-to-end machine learning pipeline for churn prediction with real-world business optimization. By applying threshold tuning and precision–recall analysis, the model achieves improved churn detection, making it highly valuable for banking applications.
+This project demonstrates an end-to-end machine learning pipeline for churn prediction with real-world business optimization. By applying threshold tuning , the model achieves improved churn detection, making it highly valuable for banking applications.
 
 👤 Author
 Shivam Pandey
